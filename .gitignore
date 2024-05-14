@@ -1,8 +1,47 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-
-# Ignore Gradle build output directory
-build
-.idea
-.gitattributes
+# --- Java / Gradle ---
+.gradle/
+build/
+out/
+target/
+*.class
+# Wrapper (keep if you use it)
+gradlew
 gradlew.bat
+.gradle/
+# IDEs
+.idea/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+.pyenv/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# --- Node / JavaScript ---
+node_modules/
+dist/
+coverage/
+.eslintcache
+.vite/
+.next/
+.parcel-cache/
+.turbo/
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Project-specific you already had ---
+.gitattributes
